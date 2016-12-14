@@ -1,0 +1,61 @@
+.header {
+  background: #fff;
+}
+
+.header span:nth-of-type(1) {
+  float: left;
+}
+
+.header span:nth-of-type(2) {
+  float: right;
+  font-size: 16px;
+}
+
+.zhishi {
+  width: 100%;
+  height: auto;
+  background: #F7F7F7;
+  padding-top: 0.3rem;
+}
+
+.zhishi .zhi:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.zhishi .zhi {
+  height: auto;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 0 0.3rem 0.3rem 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.zhishi .zhi .top {
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 20px;
+}
+
+.zhishi .zhi .fen {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+.zhishi .zhi .fen .fenlei {
+  width: 25%;
+  border-left: 0.15rem solid #fff;
+  border-right: 0.15rem solid #fff;
+  float: left;
+  height: 0.7rem;
+  margin-top: 0.3rem;
+  background: #FAF8F1;
+  text-align: center;
+  line-height: 0.7rem;
+}
+
+.zhishi .zhi .fen .fenlei:hover {
+  background: #FFC000;
+}

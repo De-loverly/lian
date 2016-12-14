@@ -1,0 +1,16 @@
+<div>
+	<div class="box" zhi-shi>
+		<header class="header">
+			<div class="iconfont">&#xe605;</div>
+			<div class="ce"><span>测试</span><span>二年级上</span></div>
+		</header>
+		<div class="zhishi">
+			<div class="zhi" ng-repeat="v in zhishi">
+				<div class="top">{{v.name}}</div>
+				<ul class="fen">
+					<li class="fenlei" ng-repeat="i in v.fenlei">{{i}}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

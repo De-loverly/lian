@@ -1,0 +1,77 @@
+<div>
+	<div class="box">
+		<header class="header">
+			<div class="iconfont">&#xe605;</div>
+			<div class="ce">测试</div>
+		</header>
+		<banner class="banner">
+			<img src="pages/demo/img/2016-12-14_225456.jpg" alt="" />
+		</banner>
+		<footer class="footer">
+			<a href="#/" class="yan">
+				<div class="min">
+					<img src="pages/demo/img/7.png" alt="" />
+					<p>测试</p>
+				</div>
+			</a>
+			<a href="#/tingxie">
+				<div class="min">
+					<img src="pages/demo/img/1.png" alt="" />
+					<p>听写</p>
+				</div>
+			</a>
+			<a href="#/kousuan">
+				<div class="min">
+					<img src="pages/demo/img/2.png" alt="" />
+					<p>口算</p>
+				</div>
+			</a>
+			<a href="#/zhishi">
+				<div class="min">
+					<img src="pages/demo/img/3.png" alt="" />
+					<p>知识点</p>
+				</div>
+			</a>
+			<a href="#/cuoti">
+				<div class="min">
+					<img src="pages/demo/img/4.png" alt="" />
+					<p>错题本</p>
+				</div>
+			</a>
+			<a href="#/xunlian">
+				<div class="min">
+					<img src="pages/demo/img/5.png" alt="" />
+					<p>试题</p>
+				</div>
+			</a>
+			<a href="#/tingli"> 
+				<div class="min">
+					<img src="pages/demo/img/6.png" alt="" />
+					<p>听力</p>
+				</div>
+			</a>
+		</footer>
+		<div class="zhao">
+			<div class="tishi">
+				<div class="xuanze">
+					<div class="xuanzea" ng-repeat="v in xuanze">
+						<div class="topa">{{v.name}}</div>
+						<ul class="xuan">
+							<li class="xuanz" ng-repeat="i in v.lei">{{i}}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="kaishi">开始测验</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<script>
+	$(".yan").on("click",function(){
+		$(".zhao").css("transform","translateY(0)")
+	})
+	$(".kaishi").on("click",function(){
+		$(".zhao").css("transform","translateY(-100%)")
+	})
+</script>

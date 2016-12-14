@@ -1,0 +1,123 @@
+.one{
+        width: 100%;
+        height: 1.3rem;
+        text-align: center;
+        line-height: 1.3rem;
+        color: black;
+        font-size: 18px;
+    }
+    
+    .back{
+        width: 100%;
+        height: 2.2rem;
+        text-align: center;
+//      line-height: 2rem;
+        overflow: hidden;
+        .people{
+            transform: scale(0.7);
+//          line-height: 2.2rem;
+            margin-top: -0.5rem;
+        }
+    }
+    .tiao{
+        width: 100%;
+        height: 4rem;
+        .hang{
+            width: 85%;
+            height: 1rem;
+            margin-left: 15%;
+            line-height: 1rem;
+//          background: black;
+            .a{
+                width: 0.6rem;
+                height: 0.6rem;
+                border-radius: 50%;
+                background: #F85325;
+                float: left;
+                margin-top: 0.2rem;
+                text-align: center;
+                line-height: 0.6rem;
+                .iconfont{
+                    color: #fff;
+                }
+            }
+            .an{
+                margin-left: 0.5rem;
+            }
+            .b{
+                background: #FFC000;
+                .icon{
+                    color: black;
+                }
+            }
+            .c{
+                background: #fff;
+                border: 1px solid #ccc;
+                .icon{
+                    color: black;
+                } 
+            }
+        }
+        .aa{
+            font-size: 18px;
+            color: red;
+            text-align: center;
+        }
+        .cc{
+            margin-top: 0.3rem;
+        }
+        .bb{
+            font-size: 15px;
+            color: red;
+            text-align: center;
+            .bb-a{
+                color: black;
+            }
+        }
+        .dd{
+            color: red;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 0.3rem;
+            .dd-a{
+                color: black;
+            }
+        }
+        .ee{
+            height: 0.9rem;
+            color: #FFD451;
+            font-size: 13px;
+            margin-top: 0.4rem;
+            padding-left: 0.2rem;
+            border-bottom: 1px solid #ccc;
+            .ee-a{
+                color: black;
+            }
+        }
+        .left{
+            width: 30%;
+            height: 1rem;
+            border: 1px solid #FFC000;
+            border-radius: 3px;
+            float: left;
+            margin-left: 18%;
+            background: #fff;
+            color: #FFC000;
+            text-align: center;
+            line-height: 1rem;
+            margin-top: 0.15rem;
+        }
+        .right{
+            width: 30%;
+            height: 1rem;
+//          border: 1px solid #FFC000;
+            border-radius: 3px;
+            float: left;
+            margin-left: 5%;
+            background: #FFC000;
+            color: #fff;
+            text-align: center;
+            margin-top: 0.15rem;
+            line-height: 1rem;
+        }
+    }

@@ -1,0 +1,139 @@
+.one {
+  width: 100%;
+  height: 1.3rem;
+  text-align: center;
+  line-height: 1.3rem;
+  color: black;
+  font-size: 18px;
+}
+
+.back {
+  width: 100%;
+  height: 2.2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.back .people {
+  transform: scale(0.7);
+  margin-top: -0.5rem;
+}
+
+.tiao {
+  width: 100%;
+  height: 4rem;
+}
+
+.tiao .hang {
+  width: 85%;
+  height: 1rem;
+  margin-left: 15%;
+  line-height: 1rem;
+}
+
+.tiao .hang .a {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: #F85325;
+  float: left;
+  margin-top: 0.2rem;
+  text-align: center;
+  line-height: 0.6rem;
+}
+
+.tiao .hang .a .iconfont {
+  color: #fff;
+}
+
+.tiao .hang .an {
+  margin-left: 0.5rem;
+}
+
+.tiao .hang .b {
+  background: #FFC000;
+}
+
+.tiao .hang .b .icon {
+  color: black;
+}
+
+.tiao .hang .c {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.tiao .hang .c .icon {
+  color: black;
+}
+
+.tiao .aa {
+  font-size: 18px;
+  color: red;
+  text-align: center;
+}
+
+.tiao .cc {
+  margin-top: 0.3rem;
+}
+
+.tiao .bb {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+}
+
+.tiao .bb .bb-a {
+  color: black;
+}
+
+.tiao .dd {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.tiao .dd .dd-a {
+  color: black;
+}
+
+.tiao .ee {
+  height: 0.9rem;
+  color: #FFD451;
+  font-size: 13px;
+  margin-top: 0.4rem;
+  padding-left: 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.tiao .ee .ee-a {
+  color: black;
+}
+
+.tiao .left {
+  width: 30%;
+  height: 1rem;
+  border: 1px solid #FFC000;
+  border-radius: 3px;
+  float: left;
+  margin-left: 18%;
+  background: #fff;
+  color: #FFC000;
+  text-align: center;
+  line-height: 1rem;
+  margin-top: 0.15rem;
+}
+
+.tiao .right {
+  width: 30%;
+  height: 1rem;
+  border-radius: 3px;
+  float: left;
+  margin-left: 5%;
+  background: #FFC000;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.15rem;
+  line-height: 1rem;
+}

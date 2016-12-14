@@ -1,0 +1,154 @@
+.boo {
+  background-image: url(pages/demo3/img/bankground.jpg);
+  background-size: cover;
+}
+
+.foot {
+  width: 100%;
+  height: 92%;
+}
+
+.foot .cirter {
+  width: 100%;
+  height: 1.5rem;
+  position: relative;
+}
+
+.foot .cirter .cir {
+  width: 80%;
+  height: 0.3rem;
+  background: #EBD299;
+  border-radius: 30px;
+  position: absolute;
+  top: 0.6rem;
+  left: 10%;
+}
+
+.foot .cirter .cir .three {
+  position: absolute;
+  left: -0.3rem;
+  top: -0.09rem;
+  color: #FFC000;
+  font-size: 15px;
+}
+
+.foot .cirter .cir .bai {
+  width: 60%;
+  height: 80%;
+  border-radius: 30px;
+  background: #fff;
+  position: absolute;
+  top: 10%;
+  left: 1%;
+}
+
+.foot .cirter .cir .bai .yuan {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #EBD29A;
+  position: absolute;
+  top: -0.13rem;
+  right: 0;
+  background: #fff;
+}
+
+.foot .cirter .cir .bai .yuan .nei {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #FFC000;
+  position: absolute;
+  top: 0.015rem;
+  left: 0.05rem;
+}
+
+.foot .kuang {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.foot .kuang .shuzi {
+  font-size: 30px;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  left: 13%;
+  top: 0;
+  color: #BC8800;
+}
+
+.foot .kuang .kuan {
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 13%;
+  background: #EBD29A;
+}
+
+.foot .key {
+  width: 70%;
+  height: 7rem;
+  margin-left: 15%;
+}
+
+.foot .key .out {
+  width: 5.1rem;
+  height: 100%;
+}
+
+.foot .key .out .jian {
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+  background: #fff;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  border-radius: 5px;
+}
+
+.foot .key .out .jian .pan {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.05rem;
+  margin-top: 0.05rem;
+  background: #A8CF0F;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.foot .key .out .jian .pan .shu {
+  color: #fff;
+  font-size: 40px;
+}
+
+.foot .key .out .jian-a {
+  width: 3.2rem;
+  height: 1.5rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  border-radius: 5px;
+}
+
+.foot .key .out .jian-a .pan-a {
+  width: 3.2rem;
+  height: 1.5rem;
+  margin-left: 0.05rem;
+  margin-top: 0.05rem;
+  background: #A8CF0F;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.foot .key .out .jian-a .pan-a .shu-a {
+  color: #fff;
+  font-size: 40px;
+}
